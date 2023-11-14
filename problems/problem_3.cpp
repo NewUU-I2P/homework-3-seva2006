@@ -5,20 +5,20 @@ std:: string result;
    switch (S) {
         case 'M':
             if (height < 1.70) {
-                result = "Short\n";
+                result = 'Short';
             } else if (height>=1.70&&height < 1.85) {
-                result = "Normal\n";
+                result = 'Normal';
             } else if (height >= 1.85){
-                result = "Tall\n";
+                result = 'Tall';
             }
             break;
         case 'F':
             if (height<1.60) {
-                result = "Short\n";
+                result = 'Short';
             }else if(height>1.60&&height <1.75) {
-                  result = "Normal\n";
+                  result = 'Normal';
             }else if (height>=1.75){
-                result = "Tall\n";
+                result = 'Tall';
             }
             break;
     return result;
