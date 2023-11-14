@@ -20,5 +20,6 @@ std::string problemSolution3(float height, char S){
                 result = "Tall";
             }
             break;
+   }      
     return result;
 }
