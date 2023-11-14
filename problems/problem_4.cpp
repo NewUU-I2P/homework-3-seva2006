@@ -14,7 +14,7 @@ std::string problemSolution4(const std::string &macAddress) {
               break;
           }
       }
-      if (is digit(macAddress[1]) == true) {
+      if (isdigit(macAddress[1]) == true) {
           if (macAddress[1] % 2 == 0) {
               result="Unicast";
           }
